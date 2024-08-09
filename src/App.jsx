@@ -1,27 +1,32 @@
 import { useState } from "react";
 import "./App.css";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Experience from "./components/Experience";
-import AboutUs from "./components/AboutUs";
-import Inspiration from "./components/Inspiration";
-import Services from "./components/Services";
-import Apply from "./components/Apply";
-import Destination from "./components/Destination";
-import Review from "./components/Review";
+
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import AboutUs from "./pages/AboutUs";
+import Services from "./pages/Services";
+import Destination from "./pages/Destination";
+import DestinationDetails from "./pages/DestinationDetails";
+import ContactUs from "./pages/ContactUs";
+import Header from "./components/layout/Header";
+
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <Experience />
-      <AboutUs />
-      <Inspiration />
-      <Services />
-      <Apply />
-      <Destination />
-      <Review />
+      <BrowserRouter>
+        {/* <Navbar /> */}
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Services" element={<Services />} />
+          <Route path="/Destination" element={<Destination />} />
+          <Route path="/DestinationDetails" element={<DestinationDetails />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }
