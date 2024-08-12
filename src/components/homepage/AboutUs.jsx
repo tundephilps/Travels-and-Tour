@@ -5,26 +5,26 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const AboutUs = () => {
   return (
-    <section class="text-gray-600 body-font lg:px-12">
-      <div class="flex flex-col text-center w-full  items-center">
+    <section className="text-gray-600 body-font lg:px-12">
+      <div className="flex flex-col text-center w-full  items-center">
         <div className="bg-[#FCEAF8] w-[161px] border-[#DC28B7] border-l-2 rounded-md">
-          <h1 class=" lg:text-[12px] p-2 font-medium title-font text-[#DC28B7]">
+          <h1 className=" lg:text-[12px] p-2 font-medium title-font text-[#DC28B7]">
             ABOUT US
           </h1>
         </div>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-[24px] text-[#464D59] mt-4">
+        <p className="lg:w-2/3 mx-auto leading-relaxed text-[24px] text-[#464D59] mt-4">
           We are more than a travel agency
         </p>
       </div>
-      <div class="container grid lg:grid-cols-2 grid-cols-1 px-5 lg:py-8 py-3 md:flex-row flex-col items-center">
-        <div class=" lg:w-full  mb-10 md:mb-0">
+      <div className="container grid lg:grid-cols-2 grid-cols-1 px-5 lg:py-8 py-3 md:flex-row flex-col items-center">
+        <div className=" lg:w-full  mb-10 md:mb-0">
           <img
-            class="object-cover object-center rounded h-[454px]"
+            className="object-cover object-center rounded h-[454px]"
             alt="hero"
             src={About}
           />
         </div>
-        <div class="lg:flex-grow   flex flex-col md:items-start md:text-left items-center text-center">
+        <div className="lg:flex-grow   flex flex-col md:items-start md:text-left items-center text-center">
           <p className="text-[#464D59]">
             <span className="text-[#DC28B7] text-[20px]">
               INNOB Travel & Tours

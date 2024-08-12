@@ -12,12 +12,14 @@ import Apply from "../components/homepage/Apply";
 import Destination from "../components/homepage/Destination";
 import Review from "../components/homepage/Review";
 import Photos from "../components/homepage/Photos";
+import Searchbar from "../components/destination/Searchbar";
 
 const Homepage = () => {
   return (
     <div>
       <Header />
       <Hero />
+      <Searchbar />
       <Experience />
       <AboutUs />
       <Inspiration />

@@ -7,29 +7,29 @@ import { SlLocationPin } from "react-icons/sl";
 
 const Inspiration = () => {
   return (
-    <section class="text-gray-600 body-font py-12">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-col text-center w-full  items-center">
+    <section className="text-gray-600 body-font py-12">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-col text-center w-full  items-center">
           <div className="bg-[#FCEAF8] w-[161px] border-[#DC28B7] border-l-2 rounded-md">
-            <h1 class=" lg:text-[12px] p-2 font-medium title-font text-[#DC28B7]">
+            <h1 className=" lg:text-[12px] p-2 font-medium title-font text-[#DC28B7]">
               TRIP INSPIRATION
             </h1>
           </div>
-          <p class="lg:w-2/4 mx-auto leading-relaxed text-[24px] text-[#464D59] my-4">
+          <p className="lg:w-2/4 mx-auto leading-relaxed text-[24px] text-[#464D59] my-4">
             Experience the world with our different categories of trips made
             just for you. Find the perfect places for your.............
           </p>
         </div>
-        <div class="flex flex-wrap -m-4">
-          <div class="lg:w-2/4 w-full p-4">
-            <div class="flex relative  h-[350px] ">
+        <div className="flex flex-wrap -m-4">
+          <div className="lg:w-2/4 w-full p-4">
+            <div className="flex relative  h-[350px] ">
               <img
                 alt="gallery"
-                class="absolute inset-0 w-full h-full object-cover object-center"
+                className="absolute inset-0 w-full h-full object-cover object-center"
                 src={trip1}
               />
 
-              <div class="px-8 py-10  z-10 w-full  absolute top-[70%]  ">
+              <div className="px-8 py-10  z-10 w-full  absolute top-[70%]  ">
                 <div className="flex flex-row items-center justify-between ">
                   <div>
                     <p className="text-[#fdfdfd]">FAMILY TRIP</p>
@@ -50,15 +50,15 @@ const Inspiration = () => {
               </div>
             </div>
           </div>
-          <div class="lg:w-1/4 w-full p-4">
-            <div class="flex relative  h-[350px] ">
+          <div className="lg:w-1/4 w-full p-4">
+            <div className="flex relative  h-[350px] ">
               <img
                 alt="gallery"
-                class="absolute inset-0 w-full h-full object-cover object-center"
+                className="absolute inset-0 w-full h-full object-cover object-center"
                 src={trip2}
               />
 
-              <div class="px-8 py-10  z-10 w-full  absolute top-[70%]  ">
+              <div className="px-8 py-10  z-10 w-full  absolute top-[70%]  ">
                 <div className="flex flex-row items-center justify-between ">
                   <div>
                     <p className="text-[#fdfdfd]">FAMILY TRIP</p>
@@ -79,15 +79,15 @@ const Inspiration = () => {
               </div>
             </div>
           </div>
-          <div class="lg:w-1/4 w-full p-4">
-            <div class="flex relative  h-[350px] ">
+          <div className="lg:w-1/4 w-full p-4">
+            <div className="flex relative  h-[350px] ">
               <img
                 alt="gallery"
-                class="absolute inset-0 w-full h-full object-cover object-center"
+                className="absolute inset-0 w-full h-full object-cover object-center"
                 src={trip3}
               />
 
-              <div class="px-8 py-10  z-10 w-full  absolute top-[70%]  ">
+              <div className="px-8 py-10  z-10 w-full  absolute top-[70%]  ">
                 <div className="flex flex-row items-center justify-between ">
                   <div>
                     <p className="text-[#fdfdfd]">FAMILY TRIP</p>

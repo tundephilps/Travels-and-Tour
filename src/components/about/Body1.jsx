@@ -5,13 +5,13 @@ import About from "../../assets/About2.png";
 const Body1 = () => {
   return (
     <div className="py-14 lg:px-12">
-      <div class="flex flex-col text-center w-full  items-center">
+      <div className="flex flex-col text-center w-full  items-center">
         <div className="bg-[#FCEAF8] w-[161px] border-[#DC28B7] border-l-2 rounded-md">
-          <h1 class=" lg:text-[12px] p-2 font-medium title-font text-[#DC28B7]">
+          <h1 className=" lg:text-[12px] p-2 font-medium title-font text-[#DC28B7]">
             ABOUT US
           </h1>
         </div>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-[24px] text-[#464D59] mt-4">
+        <p className="lg:w-2/3 mx-auto leading-relaxed text-[24px] text-[#464D59] mt-4">
           We are more than a travel agency
         </p>
       </div>

@@ -17,10 +17,11 @@ const AboutUs = () => {
     <div>
       <Header2 />
       <Navbar />
-      <div>
+      <p>About Us</p>
+      {/* <div>
         <div className="relative text-white">
           <img
-            className="absolute w-full h-[100px] bottom-[-5%] z-10"
+            className="absolute w-full h-[100px] bottom-[-5%]"
             src={overlay}
           />
           <img
@@ -28,13 +29,10 @@ const AboutUs = () => {
             className="absolute inset-0 object-cover w-full h-full"
             alt=""
           />
-          <div className="relative  lg:px-32 px-4 py-32 mx-auto z-50 text-white space-y-3">
-            <a
-              href="javascript:void(0)"
-              className="flex items-center justify-center gap-x-1 py-2 px-5 bg-white font-medium text-[#DC28B7] text-sm rounded-sm md:inline-flex"
-            >
+          <div className="relative  lg:px-32 px-4 py-32 mx-auto  text-white space-y-3">
+            <div className="flex items-center justify-center gap-x-1 py-2 px-5 bg-white font-medium text-[#DC28B7] text-sm rounded-sm md:inline-flex">
               OUR PROFILE
-            </a>
+            </div>
             <h1 className="text-3xl">About Innobs Travel & Tour</h1>
           </div>
         </div>
@@ -44,21 +42,21 @@ const AboutUs = () => {
       <Team />
       <Review />
       <div className="p-12">
-        <section class="h-[340px] relative flex flex-1 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-gray-100 py-16 shadow-lg md:py-20 xl:py-48">
+        <section className="h-[340px] relative flex flex-1 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-gray-100 py-16 shadow-lg md:py-20 xl:py-48">
           <img
             src={backgroundImage2}
             loading="lazy"
             alt="Photo by Fakurian Design"
-            class="absolute inset-0 h-full w-full object-cover object-center"
+            className="absolute inset-0 h-full w-full object-cover object-center"
           />
 
-          <div class="absolute inset-0  mix-blend-multiply"></div>
+          <div className="absolute inset-0  mix-blend-multiply"></div>
 
-          <div class="relative flex flex-col items-center p-4 ">
-            <p class="mb-4 text-center lg:text-3xl uppercase text-[#DC28B7] text-xl md:mb-8">
+          <div className="relative flex flex-col items-center p-4 ">
+            <p className="mb-4 text-center lg:text-3xl uppercase text-[#DC28B7] text-xl md:mb-8">
               travel with us today
             </p>
-            <h1 class="mb-8 text-center lg:text-2xl w-[70%] font-light text-white text-sm">
+            <h1 className="mb-8 text-center lg:text-2xl w-[70%] font-light text-white text-sm">
               Enjoy your Journey with us. Let us help you create a journey that
               reflects your dreams and aspirations. Contact us today to get
               started!
@@ -73,7 +71,7 @@ const AboutUs = () => {
             </a>
           </div>
         </section>
-      </div>
+      </div> */}
     </div>
   );
 };

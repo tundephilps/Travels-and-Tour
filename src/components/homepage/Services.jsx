@@ -48,13 +48,13 @@ const Services = () => {
       <div className="flex lg:flex-row flex-col ">
         <img src={Service} />
         <div className="bg-[#0A0D14] h-full w-full py-4 lg:px-16">
-          <div class="flex flex-col text-center w-full mb-12 items-center">
+          <div className="flex flex-col text-center w-full mb-12 items-center">
             <div className="bg-[#FCEAF8] w-[161px] border-[#DC28B7] border-l-2 rounded-md">
-              <h1 class=" lg:text-[12px] p-2 font-medium title-font text-[#DC28B7]">
+              <h1 className=" lg:text-[12px] p-2 font-medium title-font text-[#DC28B7]">
                 OUR TRAVEL PROCESS
               </h1>
             </div>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-[24px] text-[#ffffff] mt-4">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-[24px] text-[#ffffff] mt-4">
               Find out what we can do for you.
             </p>
           </div>
@@ -77,12 +77,12 @@ const Services = () => {
         </div>
       </div>
       <section>
-        <div class="px-2 py-24 mx-auto md:px-12 lg:px-12 ">
-          <div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
-            <div class="h-full  overflow-hidden rounded-md relative">
+        <div className="px-2 py-24 mx-auto md:px-12 lg:px-12 ">
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+            <div className="h-full  overflow-hidden rounded-md relative">
               <img
                 src={Summer1}
-                class="object-cover h-full shadow-2xl rounded-md aspect-square"
+                className="object-cover h-full shadow-2xl rounded-md aspect-square"
               />
               <div className="absolute bottom-0 px-8 text-white space-y-3">
                 <p className="font-extrabold text-2xl">Summer Group Trip</p>
@@ -115,10 +115,10 @@ const Services = () => {
                 </a>
               </div>
             </div>
-            <div class="h-full  overflow-hidden rounded-md relative">
+            <div className="h-full  overflow-hidden rounded-md relative">
               <img
                 src={Summer2}
-                class="object-cover h-full shadow-2xl rounded-md aspect-square"
+                className="object-cover h-full shadow-2xl rounded-md aspect-square"
               />
               <div className="absolute bottom-0 px-8 text-white space-y-3">
                 <p className="font-extrabold text-2xl">Summer In Paris</p>
@@ -151,10 +151,10 @@ const Services = () => {
                 </a>
               </div>
             </div>{" "}
-            <div class="h-full  overflow-hidden rounded-md relative">
+            <div className="h-full  overflow-hidden rounded-md relative">
               <img
                 src={Summer3}
-                class="object-cover h-full shadow-2xl rounded-md aspect-square"
+                className="object-cover h-full shadow-2xl rounded-md aspect-square"
               />
               <div className="absolute bottom-0 px-8 text-white space-y-3">
                 <p className="font-extrabold text-2xl">Holiday Package</p>

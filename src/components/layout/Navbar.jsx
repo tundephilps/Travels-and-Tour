@@ -51,9 +51,9 @@ const Navbar = () => {
         <Brand />
       </div>
       <nav
-        className={`lg:pb-0 pb-3 md:text-sm border-b-[0.5px] border-gray-300 ${
+        className={`lg:pb-0 pb-3 md:text-sm border-b-[0.5px] z-50 border-gray-300 ${
           state
-            ? "absolute top-0 inset-x-0 bg-white shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-0 md:mt-0 md:relative md:bg-transparent"
+            ? "absolute top-0 inset-x-0 bg-white z-50 shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-0 md:mt-0 md:relative md:bg-transparent"
             : ""
         }`}
       >
@@ -64,17 +64,17 @@ const Navbar = () => {
               state ? "block" : "hidden"
             } `}
           >
-            <ul className="flex-1 justify-center items-center space-y-6 md:flex md:space-x-6 md:space-y-0">
+            <ul className="flex-1 justify-center items-center z-50 space-y-6 md:flex md:space-x-6 md:space-y-0">
               {navigation.map((item, idx) => {
                 return (
-                  <Link
+                  <div
                     key={idx}
-                    className="lg:text-white text-[#DC28B7] hover:text-[#DC28B7]"
+                    className="lg:text-white z-50 text-[#DC28B7] hover:text-[#DC28B7]"
                   >
                     <Link to={item.path} className="block">
                       {item.title}
                     </Link>
-                  </Link>
+                  </div>
                 );
               })}
             </ul>

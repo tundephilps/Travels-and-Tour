@@ -14,36 +14,36 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 const Team = () => {
   return (
     <div>
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-col text-center w-full  items-center">
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-col text-center w-full  items-center">
             <div className="bg-[#FCEAF8] w-[161px] border-[#DC28B7] border-l-2 rounded-md">
-              <h1 class=" lg:text-[12px] p-2 font-medium title-font text-[#DC28B7]">
+              <h1 className=" lg:text-[12px] p-2 font-medium title-font text-[#DC28B7]">
                 OUR TEAM
               </h1>
             </div>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-[24px] text-[#464D59] mt-4">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-[24px] text-[#464D59] mt-4">
               We are more than a travel agency
             </p>
           </div>
-          <div class="grid lg:grid-cols-4 grid-cols-1 lg:gap-4 gap-32 text-center pt-8">
-            <div class="flex relative h-[380px]">
+          <div className="grid lg:grid-cols-4 grid-cols-1 lg:gap-4 gap-32 text-center pt-8">
+            <div className="flex relative h-[380px]">
               <img
                 alt="gallery"
-                class="absolute inset-0 w-full  object-contain object-center"
+                className="absolute inset-0 w-full  object-contain object-center"
                 src={Team1}
               />
               <div
-                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 text-white bg-[#18202F] opacity-0 hover:opacity-100"
+                className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 text-white bg-[#18202F] opacity-0 hover:opacity-100"
                 style={{ borderRadius: "100px 4px 100px 4px", height: "460px" }}
               >
-                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
                   INNOCENTA
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                   Shooting Stars
                 </h1>
-                <p class="leading-relaxed">
+                <p className="leading-relaxed">
                   <span>
                     <FaQuoteLeft className="lg:text-3xl text-sm text-[#DC28B7]" />
                   </span>
@@ -58,23 +58,23 @@ const Team = () => {
                 </p>
               </div>
             </div>
-            <div class="flex relative h-[380px]">
+            <div className="flex relative h-[380px]">
               <img
                 alt="gallery"
-                class="absolute inset-0 w-full  object-contain object-center"
+                className="absolute inset-0 w-full  object-contain object-center"
                 src={Team1}
               />
               <div
-                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 text-white bg-[#18202F] opacity-100"
+                className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 text-white bg-[#18202F] opacity-100"
                 style={{ borderRadius: "100px 4px 100px 4px", height: "460px" }}
               >
-                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
                   PRECIOUS
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                   Shooting Stars
                 </h1>
-                <p class="leading-relaxed">
+                <p className="leading-relaxed">
                   <span>
                     <FaQuoteLeft className="lg:text-3xl text-sm text-[#DC28B7]" />
                   </span>
@@ -89,23 +89,23 @@ const Team = () => {
                 </p>
               </div>
             </div>{" "}
-            <div class="flex relative h-[380px]">
+            <div className="flex relative h-[380px]">
               <img
                 alt="gallery"
-                class="absolute inset-0 w-full  object-contain object-center"
+                className="absolute inset-0 w-full  object-contain object-center"
                 src={Team2}
               />
               <div
-                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 text-white bg-[#18202F] opacity-0 hover:opacity-100"
+                className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 text-white bg-[#18202F] opacity-0 hover:opacity-100"
                 style={{ borderRadius: "100px 4px 100px 4px", height: "460px" }}
               >
-                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
                   VERONICA
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                   Shooting Stars
                 </h1>
-                <p class="leading-relaxed">
+                <p className="leading-relaxed">
                   <span>
                     <FaQuoteLeft className="lg:text-3xl text-sm text-[#DC28B7]" />
                   </span>
@@ -120,23 +120,23 @@ const Team = () => {
                 </p>
               </div>
             </div>{" "}
-            <div class="flex relative h-[380px]">
+            <div className="flex relative h-[380px]">
               <img
                 alt="gallery"
-                class="absolute inset-0 w-full  object-contain object-center"
+                className="absolute inset-0 w-full  object-contain object-center"
                 src={Team3}
               />
               <div
-                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 text-white bg-[#18202F] opacity-0 hover:opacity-100"
+                className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 text-white bg-[#18202F] opacity-0 hover:opacity-100"
                 style={{ borderRadius: "100px 4px 100px 4px", height: "460px" }}
               >
-                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
                   OGWU QUEEN
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                   Shooting Stars
                 </h1>
-                <p class="leading-relaxed">
+                <p className="leading-relaxed">
                   <span>
                     <FaQuoteLeft className="lg:text-3xl text-sm text-[#DC28B7]" />
                   </span>
